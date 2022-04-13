@@ -1,0 +1,1 @@
+"use strict";const Schema=use("Schema");class RecipeSchema extends Schema{up(){this.create("recipes",(e=>{e.increments(),e.string("name",80).notNullable(),e.string("recipeId",254).notNullable().unique(),e.json("data"),e.timestamps()}))}down(){this.drop("recipes")}}module.exports=RecipeSchema;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.todosStore=void 0;const tslib_1=require("tslib"),store_1=(0,tslib_1.__importDefault)(require("./store"));function initTodos(t,o){t.todos=exports.todosStore,exports.todosStore.start(t,o)}exports.todosStore=new store_1.default,exports.default=initTodos;

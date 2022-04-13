@@ -1,0 +1,1 @@
+"use strict";const Schema=use("Schema");class ServiceSchema extends Schema{up(){this.create("services",(e=>{e.increments(),e.string("serviceId",80).notNullable(),e.string("name",80).notNullable(),e.string("recipeId",254).notNullable(),e.json("settings"),e.timestamps()}))}down(){this.drop("services")}}module.exports=ServiceSchema;

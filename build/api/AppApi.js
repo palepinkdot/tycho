@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class AppApi{constructor(e){this.server=void 0,this.server=e}health(){return this.server.healthCheck()}}exports.default=AppApi;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const config_1=require("../config");function useLocalServer(e){e.settings.update({type:"app",data:{server:config_1.LOCAL_SERVER}}),e.user.login({email:"ferdi@localhost",password:"FERDI_"})}exports.default=useLocalServer;

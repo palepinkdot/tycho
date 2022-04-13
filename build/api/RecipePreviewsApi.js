@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class RecipePreviewsApi{constructor(e){this.server=void 0,this.server=e}all(){return this.server.getRecipePreviews()}featured(){return this.server.getFeaturedRecipePreviews()}search(e){return this.server.searchRecipePreviews(e)}}exports.default=RecipePreviewsApi;

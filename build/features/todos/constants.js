@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.TODOS_ROUTES=exports.IPC=void 0,exports.IPC={TODOS_HOST_CHANNEL:"TODOS_HOST_CHANNEL",TODOS_CLIENT_CHANNEL:"TODOS_CLIENT_CHANNEL"},exports.TODOS_ROUTES={TARGET:"/todos"};

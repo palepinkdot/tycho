@@ -1,0 +1,1 @@
+"use strict";const Schema=use("Schema");class WorkspaceSchema extends Schema{up(){this.create("workspaces",(e=>{e.increments(),e.string("workspaceId",80).notNullable().unique(),e.string("name",80).notNullable(),e.integer("order"),e.json("services"),e.json("data"),e.timestamps()}))}down(){this.drop("workspaces")}}module.exports=WorkspaceSchema;

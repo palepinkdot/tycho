@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.WORKSPACES_ROUTES=void 0,exports.WORKSPACES_ROUTES={ROOT:"/settings/workspaces",EDIT:"/settings/workspaces/:action/:id"};

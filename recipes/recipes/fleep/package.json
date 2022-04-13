@@ -1,0 +1,9 @@
+{
+  "id": "fleep",
+  "name": "Fleep",
+  "version": "1.1.2",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://fleep.io/chat"
+  }
+}

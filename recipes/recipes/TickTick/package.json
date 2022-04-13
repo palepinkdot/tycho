@@ -1,0 +1,9 @@
+{
+  "id": "TickTick",
+  "name": "TickTick",
+  "version": "1.2.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.ticktick.com/#p/inbox/tasks"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const tslib_1=require("tslib"),prop_types_1=(0,tslib_1.__importDefault)(require("prop-types"));exports.default={update:{type:prop_types_1.default.string.isRequired,data:prop_types_1.default.object.isRequired},remove:{type:prop_types_1.default.string.isRequired,key:prop_types_1.default.string.isRequired}};

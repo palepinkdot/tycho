@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class FeaturesApi{constructor(e){this.server=void 0,this.server=e}default(){return this.server.getDefaultFeatures()}features(){return this.server.getFeatures()}}exports.default=FeaturesApi;

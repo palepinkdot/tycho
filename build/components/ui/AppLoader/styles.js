@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});let sloganTransition="none";window&&window.matchMedia("(prefers-reduced-motion: no-preference)")&&(sloganTransition="opacity 1s ease"),exports.default={component:{color:"#FFF"},slogan:{display:"block",opacity:0,transition:sloganTransition,position:"absolute",textAlign:"center",width:"100%"},visible:{opacity:1}};

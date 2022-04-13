@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e=>{e.mainWindow.on("focus",(()=>{e.mainWindow.webContents.send("isWindowFocused",!0)})),e.mainWindow.on("blur",(()=>{e.mainWindow.webContents.send("isWindowFocused",!1)}))};

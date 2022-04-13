@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class RecipePreview{constructor(e){if(this.id="",this.name="",this.icon="",this.featured=!1,this.aliases=[],!e)throw new Error("RecipePreview config not valid");if(!e.id)throw new Error(`RecipePreview '${e.name}' requires Id`);Object.assign(this,e)}}exports.default=RecipePreview;

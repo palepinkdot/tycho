@@ -1,0 +1,1 @@
+"use strict";class NoTimestamp{register(e){Object.defineProperties(e,{createdAtColumn:{get:()=>null},updatedAtColumn:{get:()=>null}})}}module.exports=NoTimestamp;

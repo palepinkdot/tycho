@@ -1,0 +1,9 @@
+{
+  "id": "disqus",
+  "name": "Disqus",
+  "version": "1.1.2",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://disqus.com/home/"
+  }
+}

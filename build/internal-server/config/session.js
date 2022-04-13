@@ -1,0 +1,1 @@
+"use strict";const Env=use("Env");module.exports={driver:Env.get("SESSION_DRIVER","cookie"),cookieName:"adonis-session",clearWithBrowser:!0,age:"2h",cookie:{httpOnly:!0,path:"/",sameSite:!1},file:{location:"sessions"},redis:{host:"localhost",port:6379,password:null,db:0,keyPrefix:""}};

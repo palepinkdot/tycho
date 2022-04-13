@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e=>({message:{color:e.brandDanger,margin:"5px 0 0",fontSize:e.uiFontSize}});

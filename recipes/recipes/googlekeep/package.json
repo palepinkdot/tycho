@@ -1,0 +1,9 @@
+{
+  "id": "googlekeep",
+  "name": "Google Keep",
+  "version": "1.1.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://keep.google.com/"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class RecipesApi{constructor(e){this.server=void 0,this.server=e}all(){return this.server.getInstalledRecipes()}install(e){return this.server.getRecipePackage(e)}update(e){return this.server.getRecipeUpdates(e)}}exports.default=RecipesApi;

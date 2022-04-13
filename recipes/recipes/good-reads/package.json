@@ -1,0 +1,9 @@
+{
+  "id": "good-reads",
+  "name": "Good Reads",
+  "version": "1.0.2",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.goodreads.com/"
+  }
+}

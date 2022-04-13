@@ -1,0 +1,41 @@
+{
+  "name": "ferdi-recipes",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "",
+    "package": "node scripts/package.js",
+    "create": "node scripts/create.js",
+    "lint": "eslint . --fix --report-unused-disable-directives",
+    "reformat-files": "./node_modules/.bin/prettier --ignore-path .eslintignore --write --require-pragma \"**/*.{js,json,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getferdi/recipes.git"
+  },
+  "keywords": [
+    "ferdi",
+    "recipes"
+  ],
+  "author": "The Ferdi Team <hello@getferdi.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getferdi/recipes/issues"
+  },
+  "homepage": "https://github.com/getferdi/recipes#readme",
+  "devDependencies": {
+    "@types/targz": "1.0.1",
+    "eslint": "8.3.0",
+    "eslint-plugin-unicorn": "39.0.0",
+    "fs-extra": "10.0.0",
+    "husky": "7.0.4",
+    "image-size": "1.0.0",
+    "open": "8.4.0",
+    "prettier": "2.5.0",
+    "simple-git": "2.48.0",
+    "targz": "1.0.1"
+  }
+}

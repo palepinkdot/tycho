@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e=>({component:{background:e.colorWebviewLoaderBackground,padding:20,width:"auto",margin:[0,"auto"],borderRadius:6}});

@@ -1,0 +1,10 @@
+{
+  "id": "stackoverflow-chat",
+  "name": "Stack Overflow Chat",
+  "version": "1.0.3",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://chat.stackoverflow.com/",
+    "hasNotificationSound": true
+  }
+}

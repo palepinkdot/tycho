@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.communityRecipesStore=void 0;const store_1=require("./store");function initCommunityRecipes(e,t){exports.communityRecipesStore.start(e,t)}exports.communityRecipesStore=new store_1.CommunityRecipesStore,exports.default=initCommunityRecipes;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default={modal:{width:300},buttons:{display:"flex",justifyContent:"space-between"},form:{marginTop:15}};

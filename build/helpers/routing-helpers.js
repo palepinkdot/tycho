@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.matchRoute=void 0;const tslib_1=require("tslib"),route_parser_1=(0,tslib_1.__importDefault)(require("route-parser")),matchRoute=(e,t)=>new route_parser_1.default(e).match(t);exports.matchRoute=matchRoute;

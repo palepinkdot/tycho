@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.isPositionValid=void 0;const electron_1=require("electron");function isPositionValid(e){const i=electron_1.screen.getAllDisplays(),{x:o,y:t}=e;return i.some((({workArea:e})=>o>=e.x&&o<=e.x+e.width&&t>=e.y&&t<=e.y+e.height))}exports.isPositionValid=isPositionValid;

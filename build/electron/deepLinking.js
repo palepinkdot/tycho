@@ -1,0 +1,1 @@
+"use strict";function handleDeepLink(e,n){const t=n.replace("ferdi://","");t&&e.webContents.send("navigateFromDeepLink",{url:t})}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=handleDeepLink;

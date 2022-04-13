@@ -1,0 +1,1 @@
+"use strict";const Env=use("Env");module.exports={default:"local",disks:{local:{root:`${__dirname}/../recipes`,driver:"local"},s3:{driver:"s3",key:Env.get("S3_KEY"),secret:Env.get("S3_SECRET"),bucket:Env.get("S3_BUCKET"),region:Env.get("S3_REGION")}}};

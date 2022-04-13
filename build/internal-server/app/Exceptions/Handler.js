@@ -1,0 +1,1 @@
+"use strict";const BaseExceptionHandler=use("BaseExceptionHandler");class ExceptionHandler extends BaseExceptionHandler{async handle(e,{response:s}){return"ValidationException"===e.name?s.status(400).send("Invalid arguments"):s.status(e.status).send(e.message)}async report(){return!0}}module.exports=ExceptionHandler;

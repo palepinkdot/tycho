@@ -1,0 +1,1 @@
+"use strict";process.on("uncaughtException",(o=>{console.error(o)}));

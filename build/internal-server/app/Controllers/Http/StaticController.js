@@ -1,0 +1,1 @@
+"use strict";class StaticController{features({response:e}){return e.send({isServiceProxyEnabled:!0,isWorkspaceEnabled:!0,isAnnouncementsEnabled:!0,isSettingsWSEnabled:!1,isMagicBarEnabled:!0,isTodosEnabled:!0,subscribeURL:"https://getferdi.com",hasInlineCheckout:!0})}announcement({response:e}){return e.send({})}}module.exports=StaticController;

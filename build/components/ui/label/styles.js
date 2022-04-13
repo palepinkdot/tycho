@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=e=>({content:{},label:{color:e.labelColor,fontSize:e.uiFontSize},hasError:{color:e.brandDanger}});

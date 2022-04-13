@@ -1,0 +1,11 @@
+{
+  "name": "Mastodon",
+  "id": "mastodon",
+  "version": "1.2.1",
+  "license": "MIT",
+  "config": {
+    "hasNotificationSound": true,
+    "hasTeamId": true,
+    "hasCustomUrl": true
+  }
+}

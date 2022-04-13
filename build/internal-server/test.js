@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const path_1=require("path"),fs_extra_1=require("fs-extra"),start_1=require("./start"),dummyUserFolder=(0,path_1.join)(__dirname,"user_data");(0,fs_extra_1.ensureDirSync)(dummyUserFolder),(0,start_1.server)(dummyUserFolder,45568);

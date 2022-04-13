@@ -1,0 +1,1 @@
+"use strict";const Schema=use("Schema");class UserSchema extends Schema{up(){this.create("users",(s=>{s.increments(),s.json("settings"),s.timestamps()}))}down(){this.drop("users")}}module.exports=UserSchema;

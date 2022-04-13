@@ -1,0 +1,1 @@
+"use strict";const Server=use("Server"),globalMiddleware=["Adonis/Middleware/BodyParser","App/Middleware/ConvertEmptyStringsToNull"],namedMiddleware={},serverMiddleware=["Adonis/Middleware/Static"];Server.registerGlobal(globalMiddleware).registerNamed(namedMiddleware).use(serverMiddleware);

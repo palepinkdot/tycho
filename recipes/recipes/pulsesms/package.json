@@ -1,0 +1,10 @@
+{
+  "id": "pulsesms",
+  "name": "PulseSMS",
+  "version": "1.2.1",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://pulsesms.app",
+    "hasNotificationSound": true
+  }
+}

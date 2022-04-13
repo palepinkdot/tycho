@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const debug=require("debug")("Ferdi:feature:basicAuth:main");function mainIpcHandler(e,t){debug("Sending basic auth call",t),e.webContents.send("feature:basic-auth",{authInfo:t})}exports.default=mainIpcHandler;

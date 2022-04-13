@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const tslib_1=require("tslib"),Form_1=(0,tslib_1.__importDefault)(require("../../lib/Form"));exports.default=new Form_1.default({fields:{user:{label:"user",placeholder:"Username",value:""},password:{label:"Password",placeholder:"Password",value:"",type:"password"}}});

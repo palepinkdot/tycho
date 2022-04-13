@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.state=void 0;const mobx_1=require("mobx"),defaultState={isModalVisible:!1};exports.state=(0,mobx_1.observable)(defaultState);

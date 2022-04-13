@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const tslib_1=require("tslib"),Sentry=(0,tslib_1.__importStar)(require("@sentry/electron"));Sentry.init({dsn:"https://f3d022fbcf6243a68a58d681c2122ee4@sentry.io/1803053"});

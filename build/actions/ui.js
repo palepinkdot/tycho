@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const tslib_1=require("tslib"),prop_types_1=(0,tslib_1.__importDefault)(require("prop-types"));exports.default={openSettings:{path:prop_types_1.default.string},closeSettings:{},toggleServiceUpdatedInfoBar:{visible:prop_types_1.default.bool}};

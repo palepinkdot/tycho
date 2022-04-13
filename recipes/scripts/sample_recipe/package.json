@@ -1,0 +1,9 @@
+{
+  "id": "SERVICE",
+  "name": "SNAME",
+  "version": "1.0.0",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://SERVICE.com"
+  }
+}

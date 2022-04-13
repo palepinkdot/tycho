@@ -1,0 +1,1 @@
+"use strict";const Model=use("Model");class Workspace extends Model{}module.exports=Workspace;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.workspaceStore=void 0;const tslib_1=require("tslib"),store_1=(0,tslib_1.__importDefault)(require("./store"));function initWorkspaces(e,t){e.workspaces=exports.workspaceStore,exports.workspaceStore.start(e,t)}exports.workspaceStore=new store_1.default,exports.default=initWorkspaces;
